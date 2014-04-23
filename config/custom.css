@@ -1,0 +1,60 @@
+#header{
+background:url("http://farm5.static.flickr.com/4105/5034927246_53e856e3cb.jpg");
+}
+ 
+/*Main background layout (not picture, just a gradient) Remember that in css, backgrounds reapeat horizontally.*/
+body {
+background:url("http://farm5.static.flickr.com/4105/5034927246_53e856e3cb.jpg");
+}
+ 
+/*Main picuture (goes on top of layout so make sure colors match)*/
+.mainmenuwrapper {
+background: url("http://24.media.tumblr.com/d202688d6567ba50d14437967c984cec/tumblr_mg9eed9BKJ1rtiw2go1_1280.jpg") center no-repeat;
+}
+ 
+ /*Image for chat*/
+        .chat-log {
+           background-image:url("http://i1171.photobucket.com/albums/r545/Brahak/olaf_zps1c869216.png");
+           background-position:right bottom;
+           background-repeat:no-repeat;
+}
+ 
+/*Background color in chat*/
+.chat-log-add{
+background:#4068E0
+}
+ 
+/*Color for buttons (teambuilder, search for battle, etc.)*/
+.menugroup .button{
+background:#0092FF
+}
+ 
+.menugroup .menugroup{
+text-align:center
+}
+ 
+/*Color when mouse is hovered over button*/
+.menugroup .button:hover {
+background:#23AFFF
+}
+ 
+/*Color for userlist (Try to keep a different color than the chat background8?*/
+.userlist{
+border-left:1px solid #785936;
+background:#4068E0;
+}
+ 
+/*Userlist color when mouse is hovered over a name*/
+.userlist li button:hover {
+background:#65a8cc;
+}
+ 
+/*Userlist color when mouse is clicked on a name*/
+.userlist li button:active {
+        background: #3f697f
+}
+ 
+/*Pretty sure this is the color of /declares */
+.message-announce {
+background:#000000
+}
